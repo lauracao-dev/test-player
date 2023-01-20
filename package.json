@@ -1,0 +1,17 @@
+{
+  "name": "test-player",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "xstrm-js-device": "git+ssh://git@bitbucket.org:svau/xstrm-js-device.git"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
